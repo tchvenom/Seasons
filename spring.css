@@ -1,0 +1,209 @@
+header{
+    height: 150vh;
+    background-image: url(vesna.jpg);
+    background-size: cover;
+}
+header div{
+    height: 100vh;
+    display: flex; 
+}
+#poem p { 
+    font-family:kablammo;
+    font-size: medium;
+    color: #e82476;
+    line-height: 2;
+}
+header h1{
+    margin: auto;
+    font-family: Triodion;
+    font-size: 150px;
+    color: rgb(113, 28, 98);
+    text-shadow: 5px 5px 5px #420340;
+}
+@font-face {
+    font-family:Triodion;
+    src: url(fonts/Triodion/Triodion-Regular.ttf);
+}
+#poem{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 50px;
+    background-color: #d4b400;
+    background: linear-gradient(rgb(70, 65, 92), rgb(235, 59, 170))
+}
+@font-face {
+    font-family:kablammo;
+    src: url(fonts/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf);
+}
+#poem img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    transition: all 1s;
+    
+}
+#poem img:hover{
+    transform: scale(1.2);
+}
+#links {
+padding: 50px;
+background-image: url(https://gagaru.club/uploads/posts/2023-02/thumbs/1677173677_gagaru-club-p-vesennie-oboi-krasivie-pinterest-48.jpg);
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+#links a { 
+    font-size: 3vw;
+    font-family:oswald ;
+    color: #e36adf;
+    width: 60%;
+    padding-left: 10px 0;
+    background-color: #420340;
+    border: 3px groove coral;
+text-decoration: none;
+text-align: center;
+transition: all 1s;
+}
+#links a:hover{
+border-radius: 40px;
+background-color: rgb(74, 54, 80);
+color: azure;
+transform: scale(1.2);
+
+}
+#priznaki {
+    background-image: url(https://avatars.mds.yandex.net/i?id=0478612900377d11626ba11e2117fe3b-4960111-images-thumbs&n=13);
+    color: #e8e3e7;
+    
+    text-decoration: none;
+text-align: left;
+transition: all 1s;
+}
+#priznaki{  
+    padding: 50px;
+    background-color: #e36adf;
+}
+#priznaki h2{
+    text-align: center;
+    color: gold;
+    background-color: #1294ffa0;
+    padding: 35px;
+    margin: auto;
+    width: fit-content;
+} 
+#priznaki ul{
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    background-color: #3e023ca0;
+    padding: 40px;
+}  
+#priznaki li:first-child {
+    background-image: url(img/sun.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#priznaki li:nth-child(2) {
+    background-image: url(img/Allergiya.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#priznaki li:nth-child(3) {
+    background-image: url(img/Ptitsy.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#priznaki li:nth-child(4) {
+    background-image: url(img/Paskha.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+#priznaki li:nth-child(5) {
+    background-image: url(img/flower.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+#priznaki li:nth-child(6) {
+    background-image: url(img/slyakot.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+#gal img{
+    width: 24%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+    border-style: groove;
+    background-color: #ff0077b6 ;
+ }
+ #gal{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ff0077b6;
+ }
+
+ table{
+    border:15px groove rgb(255, 0, 212);
+    padding:30px;
+    margin-left:38%;
+
+    
+   }
+   td{
+    border:5px solid rgb(158, 7, 228);
+    padding:15px;
+    border-radius:60%;
+    text-align:center;
+    
+}
+caption{
+    font-family:Times New Roman;
+    font-size:xx-large;
+    color:rgb(65, 248, 48);
+}
+table{
+    border-spacing:12px;
+    border-collapse:collapse;
+     
+}
+#film{
+    text-align:center;
+    padding:50px;
+    background-color: #ff0077b6;;
+    border:15px groove rgb(140, 0, 255)
+    }
+    #film video{
+    width:50%;
+    height:500px;
+    object-fit: cover;
+    }
